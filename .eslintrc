@@ -1,0 +1,27 @@
+{
+    "parser":"babel-eslint",
+    "env":{
+        "es6":true,
+        "browser":true,
+        "node":true
+    },
+    "rules":{
+        "semi":"off",
+        "linebreak-style":"off",
+        "require-jsdoc":"off",
+        "space-before-blocks":"off",
+        "keyword-spacing":"off",
+        "key-spacing":"off",
+        "comma-dangle":"off",
+        "indent":"off",
+        "comma-spacing":"off",
+        "eol-last":"off",
+        "object-curly-spacing":"off",
+        "quotes":"off",
+        "arrow-parens":"off",
+        "no-trailing-spaces":"off",
+        "operator-linebreak":"off",
+        "max-len":"off"
+    },
+    "extends":["eslint:recommended","google"]
+}
